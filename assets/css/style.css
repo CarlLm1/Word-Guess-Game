@@ -54,6 +54,7 @@ main {
     margin-top: 0;
 }
 #wordGuess{
+    letter-spacing: 1em;
     margin-top: 50px;
     color: white;
 }
