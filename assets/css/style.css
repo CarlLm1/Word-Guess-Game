@@ -1,0 +1,59 @@
+/* CSS */
+
+
+body {
+    background-image: url("../images/music.jpg");
+}
+h1 {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 3.75em;
+    text-align: center;
+    color: #8cc2d4;
+}
+h2 {
+    font-style: italic;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    text-decoration: underline;
+    color: rgb(206, 244, 245);
+    text-align: center;
+    margin-top: -25px;
+    margin-right: -75px;
+}
+h3{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    text-align: center;
+    color: #83dce7;
+}
+h4 {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    color: #293e85;
+}
+p {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    text-align: center;
+    color: white;
+} 
+
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+/*classes */
+.container {
+    background-color: silver;
+}
+.main {
+    border-bottom-style: dotted;
+}
+
+/* IDs */
+
+
+#play{
+    color: white;
+    margin-top: 0;
+}
+#wordGuess{
+    margin-top: 50px;
+    color: white;
+}
