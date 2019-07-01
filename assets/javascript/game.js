@@ -77,7 +77,6 @@ function winner() {
 function loser() {
     if (numGuessesLeft <= 0) {
         done = true;
-        soundPlay("error sound src");
     }
 };
 
