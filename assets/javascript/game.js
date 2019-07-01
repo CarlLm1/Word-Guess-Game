@@ -31,10 +31,8 @@ function updateScreen() {
 };
 
 function checkGuess(letter) {
-    //if letter is not in guessedLetters array then push the letter to the array
     if (guessedLetters.indexOf(letter) === -1) {
         guessedLetters.push(letter);
-        //if the letter isn't in the answer word then -1 the numGuessesLeft
         if (wordAns.indexOf(letter) === -1) {
             numGuessesLeft--;
         }
@@ -53,25 +51,25 @@ function winner() {
         numWins++;
         done = true;
         if (wordAns === "NIRVANA") {
-            soundPlay("success sound src");
+            document.getElementById('myAudio').play();
         } else if (wordAns === "PEARLJAM") {
-            soundPlay("success sound src");
+            document.getElementById('myAudio').play();
         } else if (wordAns === "RADIOHEAD") {
-            soundPlay("success sound src");
+            document.getElementById('myAudio').play();
         } else if (wordAns === "FOOFIGHTERS") {
-            soundPlay("success sound src");
+            document.getElementById('myAudio').play();
         } else if (wordAns === "WUTANGCLAN") {
-            soundPlay("success sound src");
+            document.getElementById('myAudio').play();
         } else if (wordAns === "SMASHINGPUMPKINS") {
-            soundPlay("success sound src");
+            document.getElementById('myAudio').play();
         } else if (wordAns === "SOUNDGARDEN") {
-            soundPlay("success sound src");
+            document.getElementById('myAudio').play();
         } else if (wordAns === "SUBLIME") {
-            soundPlay("success sound src");
+            document.getElementById('myAudio').play();
         } else if (wordAns === "NINEINCHNAILS") {
-            soundPlay("success sound src");
+            document.getElementById('myAudio').play();
         } else if (wordAns === "GREENDAY") {
-            soundPlay("success sound src");
+            document.getElementById('myAudio').play();
         }
     }
 };
